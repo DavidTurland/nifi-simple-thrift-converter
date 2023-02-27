@@ -115,7 +115,7 @@ when copied to flowfile attributes
 1. ThriftFlowFile.content is coped verbatim to flowfile content
 
 ## Example FromThriftprocessor and ToThriftProcessor
-
+[NiFi template](doc/Templates/ToThriftProcessor_and_FromThriftProcessor.xml)
 This is a simple round-trip example
 
 <img src="./doc/FRomAndToThriftProcessor.png" width="600">
@@ -124,6 +124,7 @@ In practice:
 - The FromThriftProcessor SUCCESS would flow to '*many things*'
 - The HandleHttpResponse might just return success or failure flowed from some
 downstream process
+
 
 
 ## FromThriftProcessor and ToThriftProcessor Properties
@@ -147,6 +148,8 @@ downstream process
 This allows extracting the Thrift IDL file being used in a Running Nifi
 
 <img src="./doc/ThriftIDL.png" width="600">
+
+[NiFi template](doc/Templates/PutThriftIDL.xml)
 
 Testing:
 ```bash
