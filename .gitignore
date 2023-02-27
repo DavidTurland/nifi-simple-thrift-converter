@@ -1,0 +1,10 @@
+.vscode/
+*.versionsBackup
+examples/perl/gen-perl
+examples/python/gen-py
+target
+bin
+.classpath
+.project
+.settings
+**/gen-perl/
